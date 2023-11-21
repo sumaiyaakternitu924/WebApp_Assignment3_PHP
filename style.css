@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background: rgb(5, 106, 134);
+    color: white; 
+    transform: scale(1.1);
+}
+header img{
+    width: 15%;
+    border-radius: 50%;
+}
+header{
+    background-image: url("ImageOne.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+    height: 80vh;
+}
+
+h1{
+    font-family: 'Roboto' , sans-serif;
+}
+.navbar-icon{
+    color: black; 
+}
+
+
+#press{
+    font-size: 200%;
+    color: rgb(4, 58, 106);
+}
+#color{
+    color: red;
+}
+
+
+#login {
+    background-image: url(Background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#login .dark{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
